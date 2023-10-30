@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\DroidSansMono.ttf" />
+    <None Remove="Assets\Empty.png" />
+    <None Remove="Assets\End.png" />
+    <None Remove="Assets\Path.png" />
+    <None Remove="Assets\Start.png" />
+    <None Remove="Assets\Wall.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Path.png" />
+    <Resource Include="Assets\DroidSansMono.ttf" />
+    <Resource Include="Assets\Empty.png" />
+    <Resource Include="Assets\End.png" />
+    <Resource Include="Assets\Start.png" />
+    <Resource Include="Assets\Wall.png" />
+  </ItemGroup>
+
+</Project>
